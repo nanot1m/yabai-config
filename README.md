@@ -2,9 +2,9 @@
 
 This repository contains my standalone Yabai and Skhd configurations.
 
-See my [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repository for my other configurations.
+Forked from https://github.com/Julian-Heng/yabai-config
 
-To see the old Chunkwm configurations, click [here](https://github.com/Julian-Heng/yabai-config/tree/old).
+See theirs [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repository for other configurations.
 
 NOTE: Yabai requires System Integrity Protection to be disabled to work properly. See [here](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) for more information.
 NOTE: For macOS Big Sur and above, scripting additions needs elevated privileges to work properly. See [here](<https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)#macos-big-sur---automatically-load-scripting-addition-on-startup>) for more information.
@@ -16,9 +16,10 @@ NOTE: For macOS Big Sur and above, scripting additions needs elevated privileges
 $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 # Install configs
-$ git clone https://github.com/Julian-Heng/yabai-config.git "${HOME}"/.config/yabai
+$ git clone https://github.com/nanot1m/yabai-config.git "${HOME}"/.config/yabai
 $ ln -s "${HOME}/.config/yabai/yabairc" "${HOME}/.yabairc"
 $ ln -s "${HOME}/.config/yabai/skhdrc" "${HOME}/.skhdrc"
+$ ln -s "${HOME}/.config/yabai/simplebarrc" "${HOME}/.simplebarrc"
 ```
 
 ## Keyboard Shortcuts
